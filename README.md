@@ -1,4 +1,6 @@
 # COVID-19-Cough-Classification-phase-1
+This project was made for classifing Covid and non-covid patient through cough sound. This is a non-invasive, inexpensive and easy method so we can use that as the first filter
+before testing with PCR or so. In phase 1, I tried to know what are the issues of this approach, what the dataset is about, how to combat with audio file, and tried to combine SMOTE and K-fold cross validation for the first time. That's the reason why this repository is quite simple and I just have 1 `ipynb` file. 
 
 Sorry I have no `.py` file this time for you. But as usual I have my Kaggle notbook [**HERE**](https://www.kaggle.com/bomaich/covid-19-cough-classification) for you
 guys to try on.
