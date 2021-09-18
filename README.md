@@ -11,7 +11,7 @@ To Compensate for you, I will especially explain what I have done on this projec
 * [3. Scaling data](#3-Scaling-data)
 * [4. Imbalanced data](#4-Imbalanced-data)
 * [5. Model](#5-Model)
-* [6. Frontend](#6-frontend)
+* [6. K - fold cross validation](#6-K-fold-cross-validation)
 * [7. Lời cảm ơn](#7-lời-cảm-ơn)
 * [8. Bản quyền tập dữ liệu](#8-bản-quyền-tập-dữ-liệu)
 * [9. Giấy phép](#9-giấy-phép)
@@ -52,5 +52,25 @@ features and we don't know how they change its and if the new features were true
 However, SMote help a lot on the training time with early stopping
 
 Reference: https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+
 ## 5. Model
-I use a simple ANN model with drop out layers (0.5) to avoid overfitting
+I use a simple ANN model with drop out layers (0.5) to avoid overfitting. The model here is quite simple. I prefer using CRNN + attention and a more complicated model for
+2D dataset instead of 1D dataset like this. You know, it's just **phase 1!**
+
+## 6. K fold cross validation
+
+Here I use K-fold (Stratified k fold) with the oversampled data
+
+After all, I think K-fold is just a method to generally assessed how good or bad the model is. Help us tune the hyperparameters better
+
+Reference:
+
+https://viblo.asia/p/lam-chu-stacking-ensemble-learning-Az45b0A6ZxY
+https://www.machinecurve.com/index.php/2020/02/18/how-to-use-k-fold-cross-validation-with-keras/
+https://github.com/SadmanSakib93/Stratified-k-fold-cross-validation-Image-classification-keras/blob/master/stratified_K_fold_CV.ipynb
+https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-lieu/
+
+
+
+
+
