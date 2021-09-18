@@ -12,9 +12,6 @@ To Compensate for you, I will especially explain what I have done on this projec
 * [4. Imbalanced data](#4-Imbalanced-data)
 * [5. Model](#5-Model)
 * [6. K - fold cross validation](#6-K-fold-cross-validation)
-* [7. Lời cảm ơn](#7-lời-cảm-ơn)
-* [8. Bản quyền tập dữ liệu](#8-bản-quyền-tập-dữ-liệu)
-* [9. Giấy phép](#9-giấy-phép)
 
 ## 1. Dataset
 The dataset I used here is from AICovidVN115m contest. Which includes 669 positive cases (16.45% of total) and 3399 negative cases. But I didn't extract the features 
@@ -49,13 +46,13 @@ Reference: https://phamdinhkhanh.github.io/2020/02/17/ImbalancedData.html#45-thu
 In this project. I'll try resolving the imbalanced data by oversampling with SMOTE. It's a oversampling method. For me the result is not really good because they change the 
 features and we don't know how they change its and if the new features were true in real life. I guess in phase 2 I will try on Gain and background noise to oversample the dataset
 
-However, SMote help a lot on the training time with early stopping
+However, SMOTE help a lot on the training time with early stopping
 
 Reference: https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 
 ## 5. Model
 I use a simple ANN model with drop out layers (0.5) to avoid overfitting. The model here is quite simple. I prefer using CRNN + attention and a more complicated model for
-2D dataset instead of 1D dataset like this. You know, it's just **phase 1!**
+2D dataset instead of 1D dataset like this. You know, it's just **PHASE 1!**
 
 ## 6. K fold cross validation
 
@@ -66,8 +63,11 @@ After all, I think K-fold is just a method to generally assessed how good or bad
 Reference:
 
 https://viblo.asia/p/lam-chu-stacking-ensemble-learning-Az45b0A6ZxY
+
 https://www.machinecurve.com/index.php/2020/02/18/how-to-use-k-fold-cross-validation-with-keras/
+
 https://github.com/SadmanSakib93/Stratified-k-fold-cross-validation-Image-classification-keras/blob/master/stratified_K_fold_CV.ipynb
+
 https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-lieu/
 
 
