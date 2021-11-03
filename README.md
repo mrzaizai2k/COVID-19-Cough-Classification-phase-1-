@@ -75,34 +75,45 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 ## 7. Result
 **Original data**
 
-
- | | precision |    recall|  f1-score|   support|
- |:--:|:--:|:--:|:--:|:--:|
-    |Negative |      0.94 |     0.94  |    0.94   |    680 |
-    |Positive  |     0.70 |     0.68  |    0.69    |   134 |
-    |accuracy  |        |  |               0.90 |      814 |
-
 <p align="center"><img src="result/Original_data.PNG" width="400"></p>
 <p align="center"><i>Hình 1. Result with original data </i></p>
 
+|          | precision |    recall|  f1-score|   support|
+|:--------:|:---------:|:---------:|:-------:|:-------:|
+|Negative |      0.94 |     0.94  |    0.94   |    680 |
+|Positive |     0.70 |     0.68  |    0.69    |   134 |
+|accuracy |          |           |    0.90    | 814 |
 
-              precision    recall  f1-score   support
+<p align="center"><img src="result/origindata_AUC.PNG" width="400"></p>
+<p align="center"><i>Hình 2. AUC with original data </i></p>
 
-    Negative       0.94      0.97      0.96       680
-    Positive       0.83      0.70      0.76       134
+**Oversampling data with SMOTE**
 
-    accuracy                           0.93       814
 <p align="center"><img src="result/oversampling.PNG" width="400"></p>
-<p align="center"><i>Hình 1. Result with SMOTE </i></p>
+<p align="center"><i>Hình 3. Result with SMOTE </i></p>
+
+|         | precision |    recall|  f1-score|   support|
+|:-------:|:---------:|:---------:|:-------:|:-------:|
+|Negative |      0.94 |     0.97  |    0.96   |    680 |
+|Positive |     0.83 |     0.70  |    0.76    |   134  |
+|accuracy |          |           |    0.93    | 814    |
 
 
-              precision    recall  f1-score   support
+<p align="center"><img src="result/oversamp_AUC.PNG" width="400"></p>
+<p align="center"><i>Hình 4. AUC with SMOTE </i></p>
 
-    Negative       0.97      0.96      0.96       680
-    Positive       0.81      0.84      0.82       134
+**Oversampling data and k-fold cross validation**
 
-    accuracy                           0.94       814
-    
 <p align="center"><img src="result/over_kfold.PNG" width="400"></p>
-<p align="center"><i>Hình 1. Result with SMOTE and K_fold cross validation</i></p>
+<p align="center"><i>Hình 5. Result with SMOTE and K_fold cross validation</i></p>
+
+|         | precision |    recall|  f1-score|   support|
+|:-------:|:---------:|:---------:|:-------:|:-------:|
+|Negative |      0.97 |     0.96  |    0.96   |    680 |
+|Positive |     0.81 |     0.84  |    0.82    |   134  |
+|accuracy |          |           |    0.94    | 814    |
+
+    
+<p align="center"><img src="result/oversamp_kfold_AUC.PNG" width="400"></p>
+<p align="center"><i>Hình 6. AUC with SMOTE and K_fold cross validation</i></p>
 
