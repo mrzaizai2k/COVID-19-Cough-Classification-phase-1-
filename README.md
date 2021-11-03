@@ -72,7 +72,9 @@ https://github.com/SadmanSakib93/Stratified-k-fold-cross-validation-Image-classi
 
 https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-lieu/
 
-## 7. Result
+## 7. Result 
+**SORRY FOR THE PICTURE RESOLUTION** You can visit [**my Kaggle Notebook**](https://www.kaggle.com/bomaich/covid-19-cough-classification) to see it clear
+
 **Original data**
 
 |          | precision |    recall|  f1-score|   support|
@@ -81,13 +83,13 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 |Positive |     0.70 |     0.68  |    0.69    |   134 |
 |accuracy |          |           |    0.90    | 814 |
 
-<p align="center"><img src="result/Original_data.PNG" width="400"></p>
+<p align="center"><img src="result/Original_data.PNG" width="600"></p>
 <p align="center"><i>Figure 1. Result with original data </i></p>
 
-<p align="center"><img src="result/origindata_AUC.PNG" width="400"></p>
-<p align="center"><i>Figure 2. AUC with original data </i></p>
+<p align="center"><img src="result/origindata_AUC.PNG" width="500"></p>
+<p align="center"><i>Figure 2. AUC = 91% with original data </i></p>
 
-**Oversampling data with SMOTE**
+**Oversampling data with SMOTE** 
 
 |         | precision |    recall|  f1-score|   support|
 |:-------:|:---------:|:---------:|:-------:|:-------:|
@@ -95,12 +97,12 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 |Positive |     0.83 |     0.70  |    0.76    |   134  |
 |accuracy |          |           |    0.93    | 814    |
 
-<p align="center"><img src="result/oversampling.PNG" width="400"></p>
+<p align="center"><img src="result/oversampling.PNG" width="600"></p>
 <p align="center"><i>Figure 3. Result with SMOTE </i></p>
 
 
-<p align="center"><img src="result/oversamp_AUC.PNG" width="400"></p>
-<p align="center"><i>Figure 4. AUC with SMOTE </i></p>
+<p align="center"><img src="result/oversamp_AUC.PNG" width="500"></p>
+<p align="center"><i>Figure 4. AUC = 93% with SMOTE </i></p>
 
 **Oversampling data and k-fold cross validation**
 
@@ -110,9 +112,9 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 |Positive |     0.81 |     0.84  |    0.82    |   134  |
 |accuracy |          |           |    0.94    | 814    |
 
-<p align="center"><img src="result/over_kfold.PNG" width="400"></p>
+<p align="center"><img src="result/over_kfold.PNG" width="600"></p>
 <p align="center"><i>Figure 5. Result with SMOTE and K_fold cross validation</i></p>
     
-<p align="center"><img src="result/oversamp_kfold_AUC.PNG" width="400"></p>
-<p align="center"><i>Figure 6. AUC with SMOTE and K_fold cross validation</i></p>
+<p align="center"><img src="result/oversamp_kfold_AUC.PNG" width="500"></p>
+<p align="center"><i>Figure 6. AUC = 95% with SMOTE and K_fold cross validation</i></p>
 
