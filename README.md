@@ -76,7 +76,7 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 **Original data**
 
 <p align="center"><img src="result/Original_data.PNG" width="400"></p>
-<p align="center"><i>Hình 1. Result with original data </i></p>
+<p align="center"><i>Figure 1. Result with original data </i></p>
 
 |          | precision |    recall|  f1-score|   support|
 |:--------:|:---------:|:---------:|:-------:|:-------:|
@@ -85,12 +85,12 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 |accuracy |          |           |    0.90    | 814 |
 
 <p align="center"><img src="result/origindata_AUC.PNG" width="400"></p>
-<p align="center"><i>Hình 2. AUC with original data </i></p>
+<p align="center"><i>Figure 2. AUC with original data </i></p>
 
 **Oversampling data with SMOTE**
 
 <p align="center"><img src="result/oversampling.PNG" width="400"></p>
-<p align="center"><i>Hình 3. Result with SMOTE </i></p>
+<p align="center"><i>Figure 3. Result with SMOTE </i></p>
 
 |         | precision |    recall|  f1-score|   support|
 |:-------:|:---------:|:---------:|:-------:|:-------:|
@@ -100,12 +100,12 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 
 
 <p align="center"><img src="result/oversamp_AUC.PNG" width="400"></p>
-<p align="center"><i>Hình 4. AUC with SMOTE </i></p>
+<p align="center"><i>Figure 4. AUC with SMOTE </i></p>
 
 **Oversampling data and k-fold cross validation**
 
 <p align="center"><img src="result/over_kfold.PNG" width="400"></p>
-<p align="center"><i>Hình 5. Result with SMOTE and K_fold cross validation</i></p>
+<p align="center"><i>Figure 5. Result with SMOTE and K_fold cross validation</i></p>
 
 |         | precision |    recall|  f1-score|   support|
 |:-------:|:---------:|:---------:|:-------:|:-------:|
@@ -115,5 +115,5 @@ https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-l
 
     
 <p align="center"><img src="result/oversamp_kfold_AUC.PNG" width="400"></p>
-<p align="center"><i>Hình 6. AUC with SMOTE and K_fold cross validation</i></p>
+<p align="center"><i>Figure 6. AUC with SMOTE and K_fold cross validation</i></p>
 
