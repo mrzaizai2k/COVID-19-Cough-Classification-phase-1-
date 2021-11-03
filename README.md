@@ -1,7 +1,7 @@
 # COVID-19-Cough-Classification-phase-1
-This project was made for classifying Covid and non-covid patients through cough sound. This is a non-invasive, inexpensive and easy method so we can use that as the first filter before testing with PCR or so. In phase 1, I tried to know what are the issues of this approach, what the dataset is about, how to combat with audio file, and tried to combine SMOTE and K-fold cross validation for the first time. That's the reason why this repository is quite simple and I just have 1 `ipynb` file. 
+This project was made for classifying covid and non-covid patients through cough sound. This is a non-invasive, inexpensive and easy method so we can use that as the first filter before testing with PCR or so. In phase 1, I tried to know what are the issues of this approach, what the dataset is about, how to combat with audio file, and tried to combine SMOTE and K-fold cross validation for the first time. That's the reason why this repository is quite simple and I just have 1 `ipynb` file. 
 
-Sorry I have no `.py` file this time for you. But as usual I have my Kaggle notbook [**HERE**](https://www.kaggle.com/bomaich/covid-19-cough-classification) for you
+Sorry I have no `.py` file this time for you. But as usual I have my Kaggle notebook [**HERE**](https://www.kaggle.com/bomaich/covid-19-cough-classification) for you
 guys to try on.
 
 To Compensate for you, I will especially explain what I have done on this project:
@@ -13,6 +13,7 @@ To Compensate for you, I will especially explain what I have done on this projec
 * [4. Imbalanced data](#4-Imbalanced-data)
 * [5. Model](#5-Model)
 * [6. K - fold cross validation](#6-K-fold-cross-validation)
+* [7. Result](#7-Result)
 
 ## 1. Dataset
 The dataset I used here is from AICovidVN115m contest. Which includes 669 positive cases (16.45% of total) and 3399 negative cases. But I didn't extract the features 
@@ -70,6 +71,8 @@ https://www.machinecurve.com/index.php/2020/02/18/how-to-use-k-fold-cross-valida
 https://github.com/SadmanSakib93/Stratified-k-fold-cross-validation-Image-classification-keras/blob/master/stratified_K_fold_CV.ipynb
 
 https://miai.vn/2021/01/18/k-fold-cross-validation-tuyet-chieu-train-khi-it-du-lieu/
+
+## 7. Result
 
 
 
