@@ -1,4 +1,8 @@
 # COVID-19-Cough-Classification-phase-1
+Check out my 2 YOUTUBE channels for more:
+1. [Mrzaizai2k - AI](https://www.youtube.com/channel/UCFGCVG0P2eLS5jkDaE0vSfA) (NEW)
+2. [Mrzaizai2k](https://www.youtube.com/channel/UCCq3lQ1W437euT9eq2_26HQ) (old)
+
 This project was created to distinguish between covid and non-covid patients based on cough sound. This is a non-invasive, low-cost, and simple procedure, we may use it as a first filter before testing with PCR or other methods. In phase 1, I attempted to understand the challenges with this method, the dataset, how to deal with audio files, and for the first time, integrate SMOTE and K-fold cross validation. 
 
 I'm sorry, but I don't have a '.py' file for you this time. But, as always, you may test on my Kaggle notebook by clicking [**HERE**](https://www.kaggle.com/bomaich/covid-19-cough-classification).
